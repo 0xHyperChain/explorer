@@ -6,29 +6,29 @@ defmodule BlockScoutWeb.LayoutView do
   alias Poison.Parser
 
   @default_other_networks [
+    # %{
+    #   title: "POA",
+    #   url: "https://blockscout.com/poa/core"
+    # },
     %{
-      title: "POA",
-      url: "https://blockscout.com/poa/core"
-    },
-    %{
-      title: "Sokol",
-      url: "https://blockscout.com/poa/sokol",
+      title: "HyperChain Testnet",
+      url: "https://testnet-zkevm.alyxscan.com/",
       test_net?: true
     },
     %{
-      title: "Gnosis Chain",
-      url: "https://blockscout.com/xdai/mainnet"
+      title: "HyperChain Mainnet",
+      url: "https://zkevm.alyxscan.com/"
     },
-    %{
-      title: "Ethereum Classic",
-      url: "https://blockscout.com/etc/mainnet",
-      other?: true
-    },
-    %{
-      title: "RSK",
-      url: "https://blockscout.com/rsk/mainnet",
-      other?: true
-    }
+    # %{
+    #   title: "Ethereum Classic",
+    #   url: "https://blockscout.com/etc/mainnet",
+    #   other?: true
+    # },
+    # %{
+    #   title: "RSK",
+    #   url: "https://blockscout.com/rsk/mainnet",
+    #   other?: true
+    # }
   ]
 
   alias BlockScoutWeb.SocialMedia
