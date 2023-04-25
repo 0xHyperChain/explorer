@@ -12,12 +12,12 @@ defmodule BlockScoutWeb.LayoutView do
     # },
     %{
       title: "HyperChain Testnet",
-      url: "https://testnet-zkevm.alyxscan.com/",
+      url: "https://testnet-explorer.hyperchain.org/",
       test_net?: true
     },
     %{
       title: "HyperChain Mainnet",
-      url: "https://zkevm.alyxscan.com/"
+      url: "https://explorer.hyperchain.org/"
     },
     # %{
     #   title: "Ethereum Classic",
